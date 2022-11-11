@@ -1,0 +1,62 @@
+* {
+    font-family: sans-serif;
+}
+
+
+#todo {
+    margin: 3px;
+}
+
+.completed {
+    text-decoration: line-through;
+    font-style: italic;
+    color: gray;
+}
+
+.instructions-list {
+    /* list-style-type: none; */
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.button {
+    border-radius: 4px;
+    font-weight: 550;
+    margin: 3px;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+#button-add {
+    color: white;
+    background-color: green;
+}
+
+#button-edit {
+    /* color: white; */
+    background-color: yellow;
+}
+
+#button-delete {
+    color: white;
+    background-color: red;
+}
+
+#button-remove-complete {
+    background-color: orange;
+}
+
+#button-remove-all {
+    color: white;
+    background-color: red;
+}
+
+.incomplete li:hover {
+    font-size: 1.1rem;
+}
+
+li {
+    padding: 1.5px;
+}

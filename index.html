@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="todo-form">
+        <h1>Todo</h1>
+    <ul class="instructions-list">
+        <li class="instuction-item">Mark complete: Click.</li>
+        <li class="instuction-item">Delete single item: Double-click.</li>
+        <li class="instuction-item">Edit item: Right-click once, then right-click again. <br>
+            Left-click anywhere in document to exit edit mode</li>
+    </ul>
+        <label for="todo">Add to your todo list!</label><br>
+
+        <input type="text" name="todo" id="todo" autocomplete="off"><br>
+
+    <input type="button" class="button" value="ADD" id="button-add">
+    
+    <input type="button" class="button" value="REMOVE COMPLETED" id="button-remove-complete">
+
+    <input type="button" class="button" value="REMOVE ALL" id="button-remove-all"><br>
+    </form>    
+
+
+    <div id="task-list">
+        <!-- <h4>Incomplete:</h4> -->
+        <ul class="incomplete">
+        </ul>
+        <br>
+        <!-- <h4>Completed:</h4> -->
+        <ul class="completed">
+        </ul>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
